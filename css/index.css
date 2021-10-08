@@ -445,12 +445,12 @@ a,a :visited{
   margin-left: 35px;
   margin-right: 50%;
   border-radius: 20px;
-
+  display: flex;
 }
 
 .fa-map-marker-alt{
   color: black;
-  padding: 15px 21px;
+  padding: 17px 22px;
   border-radius: 15px;
   border-bottom-right-radius:0px ;
   border-top-right-radius: 0px;
@@ -458,7 +458,7 @@ a,a :visited{
 }
 
 .champ{
-  height:45px;
+  height:50px;
   width:250px;
   border:none;
   background-color:white;
@@ -491,6 +491,7 @@ a,a :visited{
   display: flex;
   align-items: center;
   width: 100%;
+  display: flex;
 }
 
 .buttonf {
@@ -500,6 +501,7 @@ a,a :visited{
   border-radius: 50px;
   border: 2px solid rgb(217,217,217);
   transition: 0.3s;
+  
 }
 
 .fa-money-bill-wave{
@@ -613,6 +615,7 @@ a.buttonfiltre{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border: 4px solid white;
+  object-fit: cover; 
 }
 
 /**************galerie 2***************/
@@ -676,6 +679,7 @@ a.buttonfiltre{
   border-bottom-left-radius: 15px;
   border: 4px solid white;
   position: relative;
+  object-fit: cover; 
 }
 
 .star1{
@@ -709,7 +713,6 @@ a.buttonfiltre{
 .galerie3{
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
   margin: 20px 30px 0;
   padding-bottom: 50px;
 }
@@ -787,26 +790,31 @@ a.buttonfiltre{
 .itemxl img{
   width: 100%;
   height: 90%;
+  object-fit: cover; 
 }
 
 .iteml img{
   width: 100%;
   height: 84%;
+  object-fit: cover; 
 }
 
 .itemm img{
   width: 100%;
   height: 80%;
+  object-fit: cover; 
 }
 
 .items img{
   width: 100%;
-  height: 77%; 
+  height: 77%;
+  object-fit: cover;  
 }
 
 .itemxs img{
   width: 100%;
-  height: 70%; 
+  height: 70%;
+  object-fit: cover; 
 }
 
 .nom3{
