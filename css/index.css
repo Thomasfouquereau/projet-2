@@ -398,8 +398,6 @@ img.logo{
   transition: 0.3s;
 }
 
-
-
 .container1{
   display: flex;
   align-items: center;
@@ -491,7 +489,6 @@ a,a :visited{
   display: flex;
   align-items: center;
   width: 100%;
-  display: flex;
 }
 
 .buttonf {
@@ -551,14 +548,13 @@ a.buttonfiltre{
 
 .fa-info{
   color: #0065FC;
-  size: 14px;
   margin-right: 5px ;
   border-radius: 100%;
   padding: 5px 10px;
   border: 1px solid rgb(217,217,217);
 }
 
-/**************galerie 1***************/
+/**************galerie***************/
 
 .galerie{
   display: flex;
@@ -850,6 +846,105 @@ a.buttonfiltre{
 
 /**************media queries***************/
 
-@media only screen and ( max-width: 768 ) {
-  
+@media screen and (max-width: 425px) { 
+  /**************menu***************/
+  .container1{
+    flex-direction: column;
+  }
+  .menu{
+    margin: 0%;
+  }
+/**************section***************/
+  .para1{
+    margin-left: 25px;
+    margin-right: 15px;
+  }
+  .para1,h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .para1,p{
+    font-size: 20px
+  }
+  /**************recherche***************/
+  .recherche{
+    margin-bottom: 30px;
+    margin-left: 25px;
+    border-radius: 20px;
+  }
+  /**************filtre***************/
+  .container2{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .fil{
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 35px;
+  }
+  .buttonf {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+   /**************info***************/
+   .info{
+    font-size: 18px;
+    display: flex;
+  }
+  .fa-info{
+    padding: 10px 15px;
+  }
+  /**************galerie***************/
+  .galerie{
+    flex-direction: column;
+  }
+  /**************galerie 1***************/
+  .galerie1{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px: ;
+    margin-right: 0px ;
+    margin: 0px 0px;
+    background-color: white ;
+  }
+  .Hébergements{
+    margin-left: 30px;
+    padding-right: 0px;
+  }
+  .item{
+    width: 80%;
+    height: 180px;
+    margin: 10px 30px;
+  }
+  .nom{
+    font-size: 18px;
+  }
+  .sous-nom{
+    font-size: 14px;
+  }
+  .plus{
+    margin: 20px 30px;
+    font-weight: bold;
+  }
+  /**************galerie 2***************/
+  .fa-chart-line{
+    margin-left: 0px;
+  }
+  .galerie2{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+  }
+  .item2{
+    width: 80%;
+    height: 140px;
+    margin: 10px 30px;
+  }
+  /**************galerie 3***************/
+  .activite{
+    margin-left: 20px;
+    padding-right: 0%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 }
