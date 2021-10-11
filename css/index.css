@@ -896,8 +896,8 @@ a.buttonfiltre{
   }
   .fa-search{
     display: contents;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-bottom: 4px;
   }
   .Rechercher{
     display: none;
