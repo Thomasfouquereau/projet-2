@@ -477,7 +477,6 @@ a,a :visited{
 
 .fa-search{
   display: none;
-  position: absolute;
 }
 
 .Rechercher{
@@ -944,7 +943,7 @@ a.buttonfiltre{
     width: 100%;
     margin-left: 10px ;
     margin-right: 0px ;
-    
+
     background-color: white ;
   }
   .Hébergements{
@@ -954,9 +953,9 @@ a.buttonfiltre{
     font-size: 25px;
   }
   .item{
-    width: 80%;
-    height: 180px;
-    margin: 10px 30px;
+    width: 88%;
+    height: 190px;
+    margin: 10px 15px;
   }
   .nom{
     font-size: 18px;
@@ -979,12 +978,13 @@ a.buttonfiltre{
     border-radius: 0px;
   }
   .item2{
-    width: 80%;
-    height: 140px;
-    margin: 10px 40px;
+    width: 88%;
+    height: 130px;
+    margin: 10px 28px;
   }
   .fa-star{
-    margin-top: 30px;
+    margin-top: 0px;
+    font-size: 15px;
   }
   .populaires{
     font-size: 25px;
@@ -993,6 +993,15 @@ a.buttonfiltre{
   }
   .fa-chart-line{
     margin-left: 100px;
+  }
+  .nom2{
+    font-size: 20px;
+  }
+  .star1{
+    margin-top: 5px;
+  }
+  .star2{
+    margin-top: 16px;
   }
   /**************galerie 3***************/
   .activite{
