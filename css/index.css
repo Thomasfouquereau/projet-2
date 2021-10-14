@@ -959,14 +959,18 @@ a.buttonfiltre{
     font-size: 14px;
   }
   .populaires{
-    padding-right: 400px;
+    padding-right: 300px;
   }
   .star2{
     margin-top: 0px;
   }
   /**************galerie 3***************/
+  .galerie3{
+    margin: 20px 30px;
+    padding-left: 10px;
+  }
   .activite{
-    padding-right: 500px;
+    padding-right: 400px;
   }
   .itemxl{
     width: 140px;
