@@ -572,22 +572,22 @@ a.buttonfiltre{
 .galerie1{
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
-  max-width: 780px;
-  margin: 20px 30px 0;
+  width: 60%;
+  max-width: 1085px;
+  margin: 20px 30px ;
   background-color: rgb(242,242,242);
   border-radius: 15px;
 }
 
-.Hébergements{
+.Hebergements{
   margin-left: 20px;
-  padding-right: 400px;
+  padding-right: 700px;
   padding-top: 30px;
 }
 
 .item{
-  width: 200px;
-  height: 160px;
+  width: 300px;
+  height: 220px;
   margin: 20px 30px;
   overflow: hidden;
   flex-shrink: 0;
@@ -598,13 +598,13 @@ a.buttonfiltre{
 
 .nom{
   margin: 5px 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .sous-nom{
   margin: 0px 10px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .plus{
@@ -638,15 +638,15 @@ a.buttonfiltre{
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  max-width: 350px;
-  margin: 20px 30px 0;
+  max-width: 450px;
+  margin: 20px 30px ;
   background-color: rgb(242,242,242);
   border-radius: 15px;
 }
 
 .item2{
-  width: 300px;
-  height: 110px;
+  width: 400px;
+  height: 150px;
   margin: 10px 20px;
   overflow: hidden;
   flex-shrink: 0;
@@ -665,14 +665,13 @@ a.buttonfiltre{
   margin-left: 10px;
   margin-right: 40px;
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .sous-nom2{
   margin-left: 10px;
-
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .item2 img{
@@ -721,8 +720,8 @@ a.buttonfiltre{
 }
 
 .itemxl{
-  width: 250px;
-  height: 400px;
+  width: 350px;
+  height: 600px;
   margin: 10px 20px;
   overflow: hidden;
   flex-shrink: 0;
@@ -733,8 +732,8 @@ a.buttonfiltre{
 }
 
 .iteml{
-  width: 250px;
-  height: 225px;
+  width: 350px;
+  height: 325px;
   margin: 10px 20px;
   overflow: hidden;
   flex-shrink: 0;
@@ -746,8 +745,8 @@ a.buttonfiltre{
 }
 
 .itemm{
-  width: 250px;
-  height: 185px;
+  width: 350px;
+  height: 285px;
   margin: 10px 20px;
   overflow: hidden;
   flex-shrink: 0;
@@ -759,8 +758,8 @@ a.buttonfiltre{
 }
 
 .items{
-  width: 250px;
-  height: 170px;
+  width: 350px;
+  height: 270px;
   margin: 10px 20px;
   overflow: hidden;
   flex-shrink: 0;
@@ -771,8 +770,8 @@ a.buttonfiltre{
 }
 
 .itemxs{
-  width: 250px;
-  height: 120px;
+  width: 350px;
+  height: 220px;
   margin: 10px 20px;
   overflow: hidden;
   flex-shrink: 0;
@@ -792,31 +791,31 @@ a.buttonfiltre{
 
 .itemxl img{
   width: 100%;
-  height: 90%;
+  height: 95%;
   object-fit: cover; 
 }
 
 .iteml img{
   width: 100%;
-  height: 84%;
+  height: 89%;
   object-fit: cover; 
 }
 
 .itemm img{
   width: 100%;
-  height: 80%;
+  height: 87%;
   object-fit: cover; 
 }
 
 .items img{
   width: 100%;
-  height: 77%;
+  height: 85%;
   object-fit: cover;  
 }
 
 .itemxs img{
   width: 100%;
-  height: 70%;
+  height: 85%;
   object-fit: cover; 
 }
 
@@ -853,26 +852,208 @@ a.buttonfiltre{
 
 /**************media queries***************/
 
+@media screen and (max-width: 992px){
+   /**************galerie***************/
+   .galerie{
+    flex-direction: column-reverse;
+  }
+/**************galerie 1***************/
+  .galerie1{
+    width: 100%;
+    max-width: 95%;
+  }
+  .item{
+    flex-direction:unset;
+    width: 250px;
+  }
+  .Hebergements{
+    padding-right: 500px;
+  }
+/**************galerie 2***************/
+  .galerie2{
+    width: 100%;
+    max-width: 95%;
+    margin-right: 100px;
+  }
+  .item2{
+    flex-direction:unset;
+    width: 265px;
+  }
+  .nom2{
+    font-size: 14px;
+  }
+  .populaires{
+    padding-right: 500px;
+  }
+/**************galerie 3***************/
+  .activite{
+    padding-right: 700px;
+  }
+  .itemxl{
+    width: 200px;
+    margin: 10px 10px;
+  }
+  .iteml{
+    width: 200px;
+  }
+  .itemm{
+    width: 200px;
+  }
+  .items{
+    width: 200px;
+  }
+  .itemxs{
+    width: 200px;
+  }
+/**************footer***************/
+  .apropos{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-right:150px;
+  }
+  .hebergement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+  }
+  .assistance{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  /**************filtre***************/
+  .buttonf{
+     display: flexbox;
+     margin-left: 10px;
+  }
+  .buttonfiltre{
+    font-size: 13px;
+  }
+  /**************galerie 1***************/
+  .galerie1{
+    width: 92%;
+    max-width: 95%;
+  }
+  .item{
+    flex-direction:unset;
+    width: 280px;
+    margin-right: 40px;
+  }
+  .Hebergements{
+    padding-right: 300px;
+  }
+  /**************galerie 2***************/
+  .galerie2{
+    width: 92%;
+    max-width: 95%;
+    margin-right: 100px;
+  }
+  .item2{
+    flex-direction:unset;
+    width: 200px;
+    margin-right: 7px;
+  }
+  .nom2{
+    font-size: 14px;
+  }
+  .populaires{
+    padding-right: 400px;
+  }
+  .star2{
+    margin-top: 0px;
+  }
+  /**************galerie 3***************/
+  .activite{
+    padding-right: 500px;
+  }
+  .itemxl{
+    width: 140px;
+    height: 370px;
+    margin: 10px 10px;
+  }
+  .itemxl img{
+    width: 100%;
+    height: 87%;
+  }
+  .iteml{
+    width: 140px;
+    height: 220px;
+  }
+  .iteml img{
+    width: 100%;
+    height: 80%;
+  }
+  .itemm{
+    width: 140px;
+    height: 180px;
+  }
+  .itemm img{
+    width: 100%;
+    height: 85%;
+  }
+  .items{
+    width: 140px;
+    height: 145px;
+  }
+  .items img{
+    width: 100%;
+    height: 85%;
+  }
+  .itemxs{
+    width: 140px;
+    height: 100px;
+  }
+  .itemxs img{
+    width: 100%;
+    height: 70%;
+  }
+  /**************footer***************/
+  .apropos{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-right:80px;
+  }
+  .hebergement{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+  }
+  .assistance{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 425px) { 
+  /**************logo***************/
+  img.logo {
+    padding:0px 0px;
+    margin-left: 39%;
+    margin-bottom: 20px;
+  }
   /**************menu***************/
   .container1{
     flex-direction: column;
+    align-items:unset;
   }
   .menu{
     margin: 0%;
     align-items: center;
     display: flex;
+    align-items:unset;
   }
   .menu,a{
-    padding: 0px 10px 30px 0px;
+    padding: 0px 0px 20px 0px;
   }
   .menuH{
     border-bottom: 4px solid #0065FC;
     border-top: 0px solid #0065FC;
-    padding: 0px 60px 15px 60px;
+    padding: 0px 12% 15px 12%;
   }
   .menuA{
-    padding: 0px 75px 15px 75px;
+    padding: 0px 17% 15px 17%;
     border-bottom: 4px solid rgb(170, 170, 170);
   }
 /**************section***************/
@@ -891,24 +1072,22 @@ a.buttonfiltre{
   .recherche{
     margin-bottom: 30px;
     margin-left: 25px;
-    margin-right: 10px;
+    margin-right: 25px;
     border-radius: 20px;
   }
   .fa-search{
     display: contents;
     padding-right: 0px;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
   }
   .Rechercher{
     display: none;
   }
   .buttonR{
-    border-radius: 15px;
-    margin-left: 285px;
-    position:absolute;
+    margin-left: 0px;
   }
   .champ{
-    width:250px;
+    width:350%;
   }
   /**************filtre***************/
   .container2{
@@ -946,7 +1125,7 @@ a.buttonfiltre{
 
     background-color: white ;
   }
-  .Hébergements{
+  .Hebergements{
     margin-left: 30px;
     padding-right: 0px;
     margin-bottom: 20px;
@@ -956,9 +1135,6 @@ a.buttonfiltre{
     width: 88%;
     height: 190px;
     margin: 10px 15px;
-  }
-  .nom{
-    font-size: 0px;
   }
   .sous-nom{
     font-size: 14px;
@@ -1074,6 +1250,7 @@ a.buttonfiltre{
   /**************footer***************/
   .foot{
     flex-direction: column;
+    width: 100%;
   }
   .apropos{
     margin:30px 30px 30px 30px;
