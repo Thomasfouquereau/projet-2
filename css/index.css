@@ -431,8 +431,9 @@ a,a :visited{
   margin-bottom: 5px;
 }
 
-.para1,p{
-  margin-bottom: 10px;
+body{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /**************recherche***************/
@@ -475,13 +476,11 @@ a,a :visited{
   font-weight: bold;
 }
 
-.fa-search{
-  display: none;
+i.fas.fa-search::before {
+  content: "Rechercher";
 }
 
-.Rechercher{
-  margin: 0px
-}
+
 
 /**************filtre***************/
 
@@ -570,8 +569,7 @@ a.buttonfiltre{
 /**************galerie 1***************/
 
 .galerie1{
-  display: flex;
-  flex-wrap: wrap;
+
   width: 60%;
   max-width: 1085px;
   margin: 20px 30px ;
@@ -580,15 +578,21 @@ a.buttonfiltre{
 }
 
 .Hebergements{
-  margin-left: 20px;
-  padding-right: 700px;
+  margin-left: 35px;
+  padding-right: 40%;
   padding-top: 30px;
 }
 
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:inherit;
+}
+
 .item{
-  width: 300px;
+  width: 27%;
   height: 220px;
-  margin: 20px 30px;
+  margin: 2% 3%;
   overflow: hidden;
   flex-shrink: 0;
   background-color: white;
@@ -608,7 +612,7 @@ a.buttonfiltre{
 }
 
 .plus{
-  margin: 30px 20px 35px;
+  margin: 30px 35px 35px;
   font-weight: bold;
 }
 
@@ -645,9 +649,9 @@ a.buttonfiltre{
 }
 
 .item2{
-  width: 400px;
+  width: 90%;
   height: 150px;
-  margin: 10px 20px;
+  margin: 20px 20px;
   overflow: hidden;
   flex-shrink: 0;
   background-color: white;
@@ -720,7 +724,7 @@ a.buttonfiltre{
 }
 
 .itemxl{
-  width: 350px;
+  width: 20%;
   height: 600px;
   margin: 10px 20px;
   overflow: hidden;
@@ -732,7 +736,7 @@ a.buttonfiltre{
 }
 
 .iteml{
-  width: 350px;
+  width: 90%;
   height: 325px;
   margin: 10px 20px;
   overflow: hidden;
@@ -745,7 +749,7 @@ a.buttonfiltre{
 }
 
 .itemm{
-  width: 350px;
+  width: 90%;
   height: 285px;
   margin: 10px 20px;
   overflow: hidden;
@@ -758,7 +762,7 @@ a.buttonfiltre{
 }
 
 .items{
-  width: 350px;
+  width: 90%;
   height: 270px;
   margin: 10px 20px;
   overflow: hidden;
@@ -770,7 +774,7 @@ a.buttonfiltre{
 }
 
 .itemxs{
-  width: 350px;
+  width: 90%;
   height: 220px;
   margin: 10px 20px;
   overflow: hidden;
@@ -783,10 +787,12 @@ a.buttonfiltre{
 
 .cont2{
   flex-direction: column;
+  width: 20%;
 }
 
 .cont4{
   flex-direction: column;
+  width: 20%;
 }
 
 .itemxl img{
@@ -834,15 +840,15 @@ a.buttonfiltre{
 
 .apropos{
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 5%;
   margin-bottom: 50px;
-  margin-right: 500px;
+  margin-right: 25%;
 }
 
 .hebergement{
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-right: 500px;
+  margin-right: 25%;
 }
 
 .assistance{
@@ -864,10 +870,11 @@ a.buttonfiltre{
   }
   .item{
     flex-direction:unset;
-    width: 250px;
+    width: 27%;
+    margin: 2% 3% 2% 3%;
   }
   .Hebergements{
-    padding-right: 500px;
+    padding-right: 0px;
   }
 /**************galerie 2***************/
   .galerie2{
@@ -875,35 +882,48 @@ a.buttonfiltre{
     max-width: 95%;
     margin-right: 100px;
   }
+  .card2{
+    display: flex;
+  }
   .item2{
     flex-direction:unset;
-    width: 265px;
+    width: 29%;
+    margin: 5% 2%;
   }
   .nom2{
     font-size: 14px;
   }
-  .populaires{
-    padding-right: 500px;
+  .fa-chart-line{
+    margin-left: 0%;
   }
+  
 /**************galerie 3***************/
   .activite{
-    padding-right: 700px;
+    padding-right: 70%;
   }
   .itemxl{
-    width: 200px;
-    margin: 10px 10px;
+    width: 23%;
+    margin: 1% 1%;
   }
   .iteml{
-    width: 200px;
+    width: 80%;
   }
   .itemm{
-    width: 200px;
+    width: 80%;
   }
   .items{
-    width: 200px;
+    width: 80%;
   }
   .itemxs{
-    width: 200px;
+    width: 80%;
+  }
+  .cont2{
+    flex-direction: column;
+    width: 25%;
+  }
+  .cont4{
+    flex-direction: column;
+    width: 25%;
   }
 /**************footer***************/
   .apropos{
@@ -938,28 +958,28 @@ a.buttonfiltre{
   }
   .item{
     flex-direction:unset;
-    width: 280px;
-    margin-right: 40px;
+    width: 44%;
+    margin-right: 2%;
   }
   .Hebergements{
-    padding-right: 300px;
+    padding-right: 0%;
   }
   /**************galerie 2***************/
   .galerie2{
-    width: 92%;
-    max-width: 95%;
-    margin-right: 100px;
+    width: 100%;
+    max-width: 92%;
+    margin-right: 0px;
   }
   .item2{
     flex-direction:unset;
-    width: 200px;
+    width: 30%;
     margin-right: 7px;
   }
   .nom2{
     font-size: 14px;
   }
   .populaires{
-    padding-right: 300px;
+    padding-right: 0px;
   }
   .star2{
     margin-top: 0px;
@@ -970,48 +990,58 @@ a.buttonfiltre{
     padding-left: 10px;
   }
   .activite{
-    padding-right: 400px;
+    padding-right: 0%;
   }
   .itemxl{
-    width: 140px;
-    height: 370px;
-    margin: 10px 10px;
+    width: 95%;
+    height: 300px;
+    margin: 1% 1%;
   }
   .itemxl img{
     width: 100%;
-    height: 87%;
+    height: 85%;
   }
   .iteml{
-    width: 140px;
-    height: 220px;
+    width: 95%;
+    height: 300px;
+    margin: 1% 1%;
   }
   .iteml img{
     width: 100%;
-    height: 80%;
+    height: 85%;
   }
   .itemm{
-    width: 140px;
-    height: 180px;
+    width: 95%;
+    height: 300px;
+    margin: 1% 1%;
   }
   .itemm img{
     width: 100%;
     height: 85%;
   }
   .items{
-    width: 140px;
-    height: 145px;
+    width: 95%;
+    height: 300px;
+    margin: 1% 1%;
   }
   .items img{
     width: 100%;
     height: 85%;
   }
   .itemxs{
-    width: 140px;
-    height: 100px;
+    width: 95%;
+    height: 300px;
+    margin: 1% 1%;
   }
   .itemxs img{
     width: 100%;
-    height: 70%;
+    height: 85%;
+  }
+  .cont2{
+    width: 100%;
+  }
+  .cont4{
+    width: 100%;
   }
   /**************footer***************/
   .apropos{
@@ -1054,11 +1084,13 @@ a.buttonfiltre{
   .menuH{
     border-bottom: 4px solid #0065FC;
     border-top: 0px solid #0065FC;
-    padding: 0px 12% 15px 12%;
+    padding: 0px 10% 15px 10%;
+    width: 50%;
   }
   .menuA{
-    padding: 0px 17% 15px 17%;
+    padding: 0px 12% 15px 12%;
     border-bottom: 4px solid rgb(170, 170, 170);
+    width: 50%;
   }
 /**************section***************/
   .para1{
@@ -1092,6 +1124,9 @@ a.buttonfiltre{
   }
   .champ{
     width:350%;
+  }
+  i.fas.fa-search::before{
+    content:"\f002"; 
   }
   /**************filtre***************/
   .container2{
@@ -1130,13 +1165,13 @@ a.buttonfiltre{
     background-color: white ;
   }
   .Hebergements{
-    margin-left: 30px;
+    margin-left: 20px;
     padding-right: 0px;
     margin-bottom: 20px;
     font-size: 25px;
   }
   .item{
-    width: 88%;
+    width: 93%;
     height: 190px;
     margin: 10px 15px;
   }
@@ -1144,7 +1179,7 @@ a.buttonfiltre{
     font-size: 14px;
   }
   .plus{
-    margin: 20px 30px;
+    margin: 20px 20px;
     font-weight: bold;
   }
   /**************galerie 2***************/
@@ -1157,6 +1192,10 @@ a.buttonfiltre{
     margin: 0px 0px;
     border-radius: 0px;
   }
+  .card2{
+    display: flex;
+    flex-direction: column;
+  }
   .item2{
     width: 88%;
     height: 130px;
@@ -1168,7 +1207,7 @@ a.buttonfiltre{
   }
   .populaires{
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-bottom: 20px;
   }
   .fa-chart-line{
@@ -1185,7 +1224,7 @@ a.buttonfiltre{
   }
   /**************galerie 3***************/
   .activite{
-    margin-left: 8px;
+    margin-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 20px;
