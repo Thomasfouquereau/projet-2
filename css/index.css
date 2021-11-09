@@ -675,8 +675,8 @@ border-radius: 15px;
 }
 
 .item2{
-width: 345px;
-min-width: 345px;
+width: 100%;
+max-width: 345px;
 height: 145px;
 margin:10px 20px 38px;
 overflow: hidden;
@@ -750,8 +750,10 @@ max-width: 1680px;
 }
 
 .itemxl{
-width: 300px;
+max-width: 300px;
+width: 22%;
 height: 445px;
+min-width: 200px;
 overflow: hidden;
 flex-shrink: 0;
 display: flex;
@@ -762,7 +764,8 @@ box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 
 .iteml{
 margin-bottom: 45px;
-width: 300px;
+width: 100%;
+max-width: 300px;
 height: 235px;
 overflow: hidden;
 flex-shrink: 0;
@@ -774,7 +777,8 @@ box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 
 .itemm{
 margin-bottom: 38px;
-width: 300px;
+width: 100%;
+max-width: 300px;
 height: 195px;
 overflow: hidden;
 flex-shrink: 0;
@@ -785,7 +789,7 @@ box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
 .items{
-width: 300px;
+width: 100%;
 height: 210px;
 overflow: hidden;
 flex-shrink: 0;
@@ -796,7 +800,7 @@ box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
 .itemxs{
-width: 300px;
+width: 100%;
 height: 165px;
 overflow: hidden;
 flex-shrink: 0;
@@ -810,11 +814,15 @@ box-shadow:  2px 2px 2px 2px rgba(133, 133, 133, 0.2);
 flex-direction: column;
 margin-left:2.5% ;
 margin-right: 2.5%;
+width: 22%;
+max-width: 300px;
 }
 
 .cont4{
 flex-direction: column;
 margin-left:2.5% ;
+width: 22%;
+max-width: 300px;
 }
 
 .itemxl img{
@@ -831,7 +839,7 @@ object-fit: cover;
 
 .itemm img{
 width: 100%;
-height: 85%;
+height: 83%;
 object-fit: cover; 
 }
 
@@ -889,11 +897,13 @@ margin-bottom: 50px;
 .galerie1{
   width: 100%;
   max-width: 95%;
+  margin: 20px 0px 20px 30px ;
 }
 .item{
   flex-direction:unset;
+  width: 100%;
   width: 27%;
-  margin: 2% 3% 2% 3%;
+  margin:2% 2%;
 }
 .Hebergements{
   padding-right: 0px;
@@ -910,7 +920,7 @@ margin-bottom: 50px;
 .item2{
   flex-direction:unset;
   width: 29%;
-  margin: 5% 2%;
+  margin:5% 2%;
 }
 .nom2{
   font-size: 14px;
@@ -920,6 +930,9 @@ margin-bottom: 50px;
 }
 
 /**************galerie 3***************/
+.galerie3{
+  margin-left: 30px;
+}
 .activite{
   padding-right: 70%;
 }
@@ -1349,6 +1362,7 @@ i.fas.fa-search::before{
   flex-direction: column;
 }
 .item2{
+  max-width:100% ;
   width: 92%;
   height: 130px;
   margin: 10px 15px 10px 15px;
@@ -1391,6 +1405,7 @@ i.fas.fa-search::before{
   padding:0px 0px;
 }
 .itemxl{
+  max-width:100% ;
   width: 100%;
   height: 170px;
   margin: 10px 0px;
@@ -1400,6 +1415,7 @@ i.fas.fa-search::before{
   height: 75%;
 }
 .iteml{
+  max-width:100% ;
   width: 100%;
   height: 150px;
   margin-bottom: 20px;
@@ -1409,6 +1425,7 @@ i.fas.fa-search::before{
   height: 75%;
 }
 .itemm{
+  max-width:100% ;
   width: 100%;
   height: 150px;
   margin: 10px 0px;
@@ -1419,9 +1436,10 @@ i.fas.fa-search::before{
   height: 75%;
 }
 .items{
+  max-width:100% ;
   width: 100%;
   height: 150px;
-  margin: 10px 0px;
+  margin: 0px 0px;
   margin-bottom: 20px;
 }
 .items img{
@@ -1429,19 +1447,24 @@ i.fas.fa-search::before{
   height: 75%;
 }
 .itemxs{
+  max-width:100% ;
   width: 100%;
   height: 150px;
-  margin: 10px 0px;
+  margin: 0px 0px;
 }
 .itemxs img{
   width: 100%;
   height: 75%;
+
 }
 .cont2{
+  max-width:100% ;
   width: 100%;
   margin-left: 0%;
+  margin-right: 0%;
 }
 .cont4{
+  max-width:100% ;
   width: 100%;
   margin-left: 0%;
 }
