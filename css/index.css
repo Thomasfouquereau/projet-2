@@ -901,6 +901,9 @@ margin-bottom: 50px;
 /**************media queries***************/
 
 @media screen and (max-width: 992px){
+  main{
+    margin-right: 20px;
+  }
  /**************galerie***************/
  .galerie{
   flex-direction: column-reverse;
@@ -913,8 +916,7 @@ margin-bottom: 50px;
 }
 .item{
   flex-direction:unset;
-  width: 100%;
-  width: 27%;
+  width: 45%;
   margin:2% 2%;
 }
 .Hebergements{
@@ -948,12 +950,14 @@ margin-bottom: 50px;
 /**************galerie 3***************/
 .galerie3{
   margin-left: 30px;
+  margin-right: 20px;
 }
 .activite{
   padding-right: 70%;
 }
 .itemxl{
   width: 23%;
+  min-width: 10%;
 }
 .iteml{
   width: 100%;
@@ -970,10 +974,15 @@ margin-bottom: 50px;
 .cont2{
   flex-direction: column;
   width: 23%;
+  min-width: 10%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 .cont4{
   flex-direction: column;
   width: 23%;
+  min-width: 10%;
+  margin-left: 2.5%;
 }
 /**************footer***************/
 .apropos{
@@ -993,6 +1002,9 @@ margin-bottom: 50px;
 }
 }
 @media screen and (max-width: 768px){
+  main{
+    margin: 0%;
+  }
 /**************filtre***************/
 .buttonf{
    display: flexbox;
@@ -1256,6 +1268,9 @@ li a {
 }
 }
 @media screen and (max-width: 425px) { 
+  main{
+    margin: 0%;
+  }
 /**************logo***************/
 img.logo {
   padding:0px 0px;
