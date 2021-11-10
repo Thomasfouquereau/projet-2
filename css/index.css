@@ -403,7 +403,7 @@ font-weight: bold;
 transition: 0.3s;
 }
 
-.container1{
+.container_1{
 display: flex;
 align-items: center;
 }
@@ -412,7 +412,7 @@ align-items: center;
 padding: 42px 22px;
 }
 
-.menuH{
+.menu_H{
 border-top: 2px solid #0065FC;
 color: #0065FC;
 }
@@ -428,18 +428,13 @@ color: #0065FC;
 
 /**************section***************/
 
-.para1{
+.p_1{
 margin-bottom: 15px;
 margin-left: 35px;
 }
 
-.para1,h2{
+.p_1,h2{
 margin-bottom: 5px;
-}
-
-body{
-margin-left: auto;
-margin-right: auto;
 }
 
 /**************recherche***************/
@@ -472,7 +467,7 @@ font-weight: bold;
 border: 1px solid rgb(242,242,242);
 }
 
-.buttonR{
+.button_R{
 margin-left: 0px;
 color: #F2F2F2;
 background-color:#0065FC ;
@@ -496,7 +491,7 @@ margin-left: 35px;
 margin-right: 35px;
 }
 
-.container2{
+.container_2{
 margin-right: 25px;
 display: flex;
 flex-wrap: wrap;
@@ -504,7 +499,7 @@ align-items: center;
 width: 100%;
 }
 
-.buttonf {
+.button_f {
 margin-left: 35px;
 background-color:#DEEBFF ;
 background: transparent;
@@ -555,13 +550,13 @@ transform: scale(1.36);
 font-size: 13px;
 }
 
-a.buttonfiltre{
+a.button_filtre{
 padding-left: 5px;
 padding-right: 15px;
 font-weight: bold;
 }
 
-.buttonf:hover{
+.button_f:hover{
 border-color: RGB(222,235,255);
 }
 
@@ -588,7 +583,7 @@ display: flex;
 
 /**************galerie 1***************/
 
-.galerie1{
+.galerie_1{
 width: 60%;
 max-width: 900px;
 margin: 20px 0px 20px 50px ;
@@ -621,7 +616,7 @@ border-radius: 15px;
 box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
-.star1{
+.star_1{
   margin-left: 10px;
   margin-top: 6px;
   font-size: 15px;
@@ -669,7 +664,7 @@ margin-top: 30px;
 margin-right: 20px;
 }
 
-.galerie2{
+.galerie_2{
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -685,7 +680,7 @@ border-radius: 15px;
   margin-right: 50px;
 }
 
-.item2{
+.item_2{
 width: 100%;
 max-width: 355px;
 height: 145px;
@@ -704,7 +699,7 @@ flex-direction: column;
 width: 60%;
 }
 
-.nom2{
+.nom_2{
 margin-left: 10px;
 margin-right: 40px;
 padding-top: 10px;
@@ -712,12 +707,12 @@ font-size: 16px;
 font-weight: bold;
 }
 
-.sous-nom2{
+.sous-nom_2{
 margin-left: 10px;
 font-size: 15px;
 }
 
-.item2 img{
+.item_2 img{
 width: 40%;
 height: 100%;
 border-top-left-radius: 15px;
@@ -731,7 +726,7 @@ object-fit: cover;
 display: none;
 }
 
-.star2{
+.star_2{
 margin-left: 10px;
 margin-top: 10px;
 }
@@ -753,7 +748,7 @@ padding-bottom: 20px;
 margin-left: 25px;
 }
 
-.galerie3{
+.galerie_3{
 display: flex;
 flex-wrap: wrap;
 margin-left: 50px ;
@@ -761,7 +756,7 @@ padding-bottom: 50px;
 max-width: 1680px;
 }
 
-.itemxl{
+.item_xl{
 max-width: 300px;
 width: 22%;
 height: 445px;
@@ -774,7 +769,7 @@ flex-direction: column;
 box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
-.iteml{
+.item_l{
 margin-bottom: 45px;
 width: 100%;
 max-width: 300px;
@@ -787,7 +782,7 @@ flex-direction: column;
 box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
-.itemm{
+.item_m{
 margin-bottom: 38px;
 width: 100%;
 max-width: 300px;
@@ -800,7 +795,7 @@ flex-direction: column;
 box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
-.items{
+.item_s{
 width: 100%;
 height: 210px;
 overflow: hidden;
@@ -811,7 +806,7 @@ flex-direction: column;
 box-shadow:  2px 2px 2px 1px rgba(133, 133, 133, 0.2);
 }
 
-.itemxs{
+.item_xs{
 width: 100%;
 height: 165px;
 overflow: hidden;
@@ -822,7 +817,7 @@ flex-direction: column;
 box-shadow:  2px 2px 2px 2px rgba(133, 133, 133, 0.2);
 }
 
-.cont2{
+.cont_2{
 flex-direction: column;
 margin-left: 2.25%;
 margin-right: 2.25%;
@@ -830,44 +825,44 @@ width: 22%;
 max-width: 300px;
 }
 
-.cont4{
+.cont_4{
 flex-direction: column;
 margin-left:2.25% ;
 width: 22%;
 max-width: 300px;
 }
 
-.itemxl img{
+.item_xl img{
 width: 100%;
 height: 95%;
 object-fit: cover; 
 }
 
-.iteml img{
+.item_l img{
 width: 100%;
 height: 84%;
 object-fit: cover; 
 }
 
-.itemm img{
+.item_m img{
 width: 100%;
 height: 83%;
 object-fit: cover; 
 }
 
-.items img{
+.item_s img{
 width: 100%;
 height: 83%;
 object-fit: cover;  
 }
 
-.itemxs img{
+.item_xs img{
 width: 100%;
 height: 76%;
 object-fit: cover; 
 }
 
-.nom3{
+.nom_3{
 margin: 10px 20px;
 font-size: 17px;
 font-weight: bold;
@@ -909,7 +904,7 @@ margin-bottom: 50px;
   flex-direction: column-reverse;
 }
 /**************galerie 1***************/
-.galerie1{
+.galerie_1{
   width: 100%;
   max-width: 95%;
   margin: 20px 0px 20px 30px ;
@@ -926,21 +921,21 @@ margin-bottom: 50px;
 .populaires{
   margin-bottom: 0%;
 }
-.galerie2{
+.galerie_2{
   width: 100%;
   max-width: 95%;
   margin-right: 100px;
 }
-.card2{
+.card_2{
   display: flex;
   margin-top: -20px;
 }
-.item2{
+.item_2{
   flex-direction:unset;
   width: 31%;
   margin:5% 2%;
 }
-.nom2{
+.nom_2{
   font-size: 14px;
 }
 .prix{
@@ -948,30 +943,30 @@ margin-bottom: 50px;
 }
 
 /**************galerie 3***************/
-.galerie3{
+.galerie_3{
   margin-left: 30px;
   margin-right: 20px;
 }
 .activite{
   padding-right: 70%;
 }
-.itemxl{
+.item_xl{
   width: 23%;
   min-width: 10%;
 }
-.iteml{
+.item_l{
   width: 100%;
 }
-.itemm{
+.item_m{
   width: 100%;
 }
-.items{
+.item_s{
   width: 100%;
 }
-.itemxs{
+.item_xs{
   width: 100%;
 }
-.cont2{
+.cont_2{
   flex-direction: column;
   width: 23%;
   min-width: 10%;
@@ -1006,12 +1001,12 @@ margin-bottom: 50px;
     margin: 0%;
   }
 /**************filtre***************/
-.buttonf{
+.button_f{
    display: flexbox;
    margin-left: 10px;
 }
 /**************galerie 1***************/
-.galerie1{
+.galerie_1{
   width: 92%;
   max-width: 95%;
 }
@@ -1024,25 +1019,25 @@ margin-bottom: 50px;
   padding-right: 0%;
 }
 /**************galerie 2***************/
-.galerie2{
+.galerie_2{
   width: 100%;
   max-width: 92%;
   margin-right: 0px;
   padding-bottom: 15px;
 }
-.card2{
+.card_2{
   margin-top: 0px ;
   margin-left: 1.5%;
   margin-right: 3.5%;
 }
-.item2{
+.item_2{
   flex-direction:unset;
   width: 47%;
   margin-right: 3.5%;
   margin-bottom: 0px;
   margin: 2%;
 }
-.nom2{
+.nom_2{
   font-size: 14px;
 
 }
@@ -1050,11 +1045,11 @@ margin-bottom: 50px;
   padding-right: 0px;
   margin-left: 30px;
 }
-.star2{
+.star_2{
   margin-top: 10px;
 }
 /*****plus*********************************************************/
-#item2-1{
+#item_2-1{
   display: none;
 }
 .menu-deroulant{
@@ -1064,10 +1059,10 @@ margin-bottom: 50px;
 .ul{
   width: 100%;
 }
-.afficher1{
+.afficher_1{
   margin-left: 10px;
 }
-.afficher1:visited{
+.afficher_1:visited{
   display: none;
   color: white;
 }
@@ -1075,7 +1070,7 @@ margin-bottom: 50px;
   padding: 15px 20px;
   display: flex;
 }
-.menu__item2--none{
+.menu__item_2--none{
   height:150px;
   margin:10px 0px;
   margin-left: 10px;
@@ -1092,7 +1087,7 @@ margin-bottom: 50px;
 .menu-deroulant__menu:hover:visited{
   color: rgb(242,242,242);
 }
-.menu__item2--none img {
+.menu__item_2--none img {
   width: 40%;
   height: 100%;
   border-top-left-radius: 15px;
@@ -1184,67 +1179,67 @@ li a {
   color: white;
 }
 /**************galerie 3***************/
-.galerie3{
+.galerie_3{
   margin: 20px 25px;
   padding-left: 5px;
 }
 .activite{
   padding-right: 0%;
 }
-.itemxl{
+.item_xl{
   max-width: 100%;
   width: 99%;
   height: 300px;
   margin-bottom: 30px;
 }
-.itemxl img{
+.item_xl img{
   width: 100%;
   height: 85%;
 }
-.iteml{
+.item_l{
   max-width: 100%;
   width: 99%;
   height: 300px;
 }
-.iteml img{
+.item_l img{
   width: 100%;
   height: 85%;
 }
-.itemm{
+.item_m{
   max-width: 100%;
   width: 99%;
   height: 300px;
 }
-.itemm img{
+.item_m img{
   width: 100%;
   height: 85%;
 }
-.items{
+.item_s{
   max-width: 100%;
   width: 99%;
   height: 300px;
  }
-.items img{
+.item_s img{
   width: 100%;
   height: 85%;
 }
-.itemxs{
+.item_xs{
   max-width: 100%;
   width: 99%;
   height: 300px;
   margin-bottom: 30px;
 }
-.itemxs img{
+.item_xs img{
   width: 100%;
   height: 85%;
 }
-.cont2{
+.cont_2{
   max-width: 100%;
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
 }
-.cont4{
+.cont_4{
   max-width: 100%;
   width: 100%;
   margin-left: 0%;
@@ -1278,7 +1273,7 @@ img.logo {
   margin-bottom: 20px;
 }
 /**************menu***************/
-.container1{
+.container_1{
   flex-direction: column;
   align-items:unset;
 }
@@ -1291,27 +1286,27 @@ img.logo {
 .menu,a{
   padding: 0px 0px 20px 0px;
 }
-.menuH{
+.menu_H{
   border-bottom: 4px solid #0065FC;
   border-top: 0px solid #0065FC;
   padding: 0px 10% 15px 10%;
   width: 50%;
 }
-.menuA{
+.menu_A{
   padding: 0px 12% 15px 15%;
   border-bottom: 4px solid rgb(170, 170, 170);
   width: 50%;
 }
 /**************section***************/
-.para1{
+.p_1{
   margin-left: 25px;
   margin-right: 15px;
 }
-.para1,h2{
+.p_1,h2{
   margin-bottom: 20px;
   font-size: 28px;
 }
-.para1,p{
+.p_1,p{
   font-size: 20px
 }
 /**************recherche***************/
@@ -1329,7 +1324,7 @@ img.logo {
 .Rechercher{
   display: none;
 }
-.buttonR{
+.button_R{
   margin-left: 0px;
 }
 .champ{
@@ -1340,7 +1335,7 @@ i.fas.fa-search::before{
   font-family: "Font Awesome 5 Free";
 }
 /**************filtre***************/
-.container2{
+.container_2{
   align-items: flex-start;
   flex-direction: column;
 }
@@ -1349,7 +1344,7 @@ i.fas.fa-search::before{
   margin-left: 0px;
   margin-right: 35px;
 }
-.buttonf {
+.button_f {
   margin-left: 0px;
   margin-bottom: 15px;
 }
@@ -1372,7 +1367,7 @@ i.fas.fa-search::before{
   flex-direction: column-reverse;
 }
 /**************galerie 1***************/
-.galerie1{
+.galerie_1{
   flex-direction: column;
   width: 100%;
   margin-left: 10px ;
@@ -1398,26 +1393,26 @@ i.fas.fa-search::before{
   font-weight: bold;
 }
 /**************galerie 2***************/
-#item2-1{
+#item_2-1{
   display:flex;
 }
-.card2{
+.card_2{
   margin-right: 0px
 }
 .menu-deroulant{
   display: none;
 }
-.galerie2{
+.galerie_2{
   width: 100%;
   max-width: 100%;
   margin: 0px 0px;
   border-radius: 0px;
 }
-.card2{
+.card_2{
   display: flex;
   flex-direction: column;
 }
-.item2{
+.item_2{
   max-width:100% ;
   width: 92%;
   height: 130px;
@@ -1432,18 +1427,18 @@ i.fas.fa-search::before{
   margin-left: 30px;
   margin-bottom: 20px;
 }
-.nom2{
+.nom_2{
   font-size: 18px;
   margin-left: 5px;
   margin-right: 0px;
 }
-.star1{
+.star_1{
   margin-top: 5px;
 }
-.star2{
+.star_2{
   margin-top: 16px;
 }
-.img2{
+.img_2{
   width: 100%
 }
 /**************galerie 3***************/
@@ -1454,74 +1449,74 @@ i.fas.fa-search::before{
   padding-bottom: 20px;
   font-size: 25px;
 }
-.galerie3{
+.galerie_3{
   display: flex;
   flex-wrap: wrap;
   margin:20px 20px 20px 20px;
   padding:0px 0px;
 }
-.itemxl{
+.item_xl{
   max-width:100% ;
   width: 100%;
   height: 170px;
   margin: 0px 0px;
   margin-bottom: 20px;
 }
-.itemxl img{
+.item_xl img{
   width: 100%;
   height: 75%;
 }
-.iteml{
+.item_l{
   max-width:100% ;
   width: 100%;
   height: 150px;
   margin-bottom: 20px;
 }
-.iteml img{
+.item_l img{
   width: 100%;
   height: 75%;
 }
-.itemm{
-  max-width:100% ;
-  width: 100%;
-  height: 150px;
-  margin: 0px 0px;
-  margin-bottom: 20px;
-}
-.itemm img{
-  width: 100%;
-  height: 75%;
-}
-.items{
+.item_m{
   max-width:100% ;
   width: 100%;
   height: 150px;
   margin: 0px 0px;
   margin-bottom: 20px;
 }
-.items img{
+.item_m img{
   width: 100%;
   height: 75%;
 }
-.itemxs{
+.item_s{
   max-width:100% ;
   width: 100%;
   height: 150px;
   margin: 0px 0px;
   margin-bottom: 20px;
 }
-.itemxs img{
+.item_s img{
+  width: 100%;
+  height: 75%;
+}
+.item_xs{
+  max-width:100% ;
+  width: 100%;
+  height: 150px;
+  margin: 0px 0px;
+  margin-bottom: 20px;
+}
+.item_xs img{
   width: 100%;
   height: 75%;
 
 }
-.cont2{
+.cont_2{
   max-width:100% ;
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
 }
-.cont4{
+.cont_4{
   max-width:100% ;
   width: 100%;
   margin-left: 0%;
