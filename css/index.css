@@ -676,7 +676,7 @@ justify-content: space-between;
 align-items: baseline;
 width: 35%;
 max-width: 400px;
-margin: 20px 50px 20px 30px ;
+margin: 20px 40px 20px 30px ;
 background-color: rgb(242,242,242);
 border-radius: 15px;
 }
@@ -686,8 +686,8 @@ border-radius: 15px;
 }
 
 .item_2{
-width: 100%;
-max-width: 355px;
+width: 87%;
+max-width: 345px;
 height: 145px;
 margin:10px 80px 38px 20px;
 overflow: hidden;
@@ -937,7 +937,7 @@ margin-bottom: 50px;
 }
 .item_2{
   flex-direction:unset;
-  width: 31%;
+  width: 29%;
   margin:5% 2%;
 }
 .nom_2{
@@ -952,6 +952,9 @@ margin-bottom: 50px;
   margin-left: 30px;
   margin-right: 20px;
 }
+.nom_3{
+  font-size: 15px;
+}
 .activite{
   padding-right: 70%;
 }
@@ -961,6 +964,9 @@ margin-bottom: 50px;
 }
 .item_l{
   width: 100%;
+}
+.item_l img{
+  height: 80%;
 }
 .item_m{
   width: 100%;
