@@ -13,16 +13,20 @@
     <body>
 
         <header>
+
             <div class="container_1">
                 <img class="logo" src="assets/images/logo/Booki.png" alt=" logo">
-                    <div class="menu">
+
+                <nav class="menu">
                         <a class="menu_H" href="#">Hébergements</a>
                         <a class="menu_A" href="#activite">Activités</a>
-                    </div>
+                </nav>
+
             </div>
+
         </header>
+
         <main>
-        <section class=" head" >
 
             <div class="p_1">
                 <h2>Trouver votre hébergement pour des vacances de reve</h2>
@@ -31,35 +35,33 @@
 
             <div class="recherche">
                 <label id="recherche"><i class="fas fa-map-marker-alt"></i></label>
-                <input class="champ" type="text" placeholder="  Marseille, France">                               
+                <input class="champ" type="text" placeholder="  Marseille, France">
                 <a class="button_R" href="#"><p class="Rechercher"></p><i class="fas fa-search"></i></a>
             </div>
             <div id="menu_1"></div>
-            <div class="filtre">      
-                <div class="container_2">
-                    <h3 class="fil">Filtres</h3>
+            <div class="filtre">
+                <h3 class="fil">Filtres</h3>
+                    <div class="container_2">
                         <button class="button_f">
                             <i class="fas fa-money-bill-wave"></i>
-                            <a class="button_filtre" href="#">Economique</a>
+                            <i class="button_f-txt">Economique</i>
                         </button>
                         <button class="button_f">
                             <i class="fas fa-child"></i>
-                            <a class="button_filtre" href="#">Familial</a>
+                            <i class="button_f-txt">Familial</i>
                         </button>
                         <button class="button_f">
                             <i class="fas fa-heart"></i>
-                            <a class="button_filtre" href="#">Romantique</a>
+                            <i class="button_f-txt">Romantique</i>
                         </button>
                         <button class="button_f">
                             <i class="fas fa-dog"></i>
-                            <a class="button_filtre" href="#">Animaux autorisés</a>
+                            <i class="button_f-txt">Animaux autorisés</i>
                         </button>
                 </div>
             </div>
 
                 <p class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
-
-        </section>
 
         <section class="body">
 
@@ -67,7 +69,7 @@
                    
             <div class="galerie_1">
 
-                <h3 class="Hebergements">Hébergements a Marseille</h3>
+                <h3 class="hebergements">Hébergements a Marseille</h3>
 
                 <div class="card">
                     <div class="item">
@@ -114,17 +116,16 @@
             </div>
             
             <div class="galerie_2">
-
+                <div class="galerie_2--nom">
                     <h3 class="populaires">Les plus populaires </h3>
                     <i class="fas fa-chart-line"></i>
-
+                </div>
                 <div class="card_2">
 
                 <div class="item_2">
                     <img class="img_2" src="assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel le soleil du matin">
                         <div class="txt">
                             <p class="nom_2">Hotel le soleil du matin</p>
-                                </br>
                             <p class="sous-nom_2">Nuit a partir de <strong class="prix">128€  </strong></p>
                             <div class="star_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         </div>
@@ -137,34 +138,15 @@
                             <div class="star_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star blackiconcolor"></i></div>
                         </div>
                 </div>
-                <div class="item_2" id="item_2-1">
+                <div class="item_2">
                     <img class="img_2" src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel tout bleu et blanc">
                         <div class="txt">
                             <p class="nom_2">Hotel tout bleu et blanc</p>
-                        </br>
                             <p class="sous-nom_2">Nuit a partir de <strong class="prix">68€</strong></p>
                             <div class="star_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star blackiconcolor"></i></div>
                         </div>
                 </div>
             </div>
-                <nav>
-                    <div class="ul">
-                  <li class="menu-deroulant">
-                    <a class="menu-deroulant__menu" href="#menu_1"><p class="afficher_1"> Afficher plus </p></a>
-                    <ul class="sous-menu">
-                      <li><div class="menu__item_2--none">
-                        <img class="img_2" src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel tout bleu et blanc">
-                        <div class="txt">
-                            <p class="nom_2">Hotel tout bleu et blanc</p>
-                        </br>
-                            <p class="sous-nom_2">Nuit a partir de <strong class="prix">68€</strong></p>
-                            <div class="star_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star blackiconcolor"></i></div>
-                        </div>
-                    </div></li>
-                    </ul>
-                  </li>
-                    </ul>
-                  </nav>
             </div>     
         </div>
     </section>
@@ -213,30 +195,29 @@
     <footer>
 
         <div class="foot">
+            <div class="foot_txt">
+                <div class="apropos">
+                    <p><strong>A propos</strong></p>
+                    <p>Fonctionnement du site</p>
+                    <p>Conditions générales de vente</p>
+                    <p>Données et confidentialité</p>
+                </div>
 
-        <div class="apropos">
-            <p><strong>A propos</strong></p>
-            <p>Fonctionnement du site</p>
-            <p>Conditions générales de vente</p>
-            <p>données et confidentialité</p>
-        </div>
+                <div class="hebergement">
+                    <p><strong>Nos hébergements</strong></p>
+                    <p>Charte qualité</p>
+                    <p>Soumettre votre hotel</p>
+                </div>
 
-        <div class="hebergement">
-            <p><strong>Nos hébergements</strong></p>
-            <p>Charte qualité</p>
-            <p>Soumettre votre hotel</p>
-        </div>
-
-        <div class="assistance">
-            <p><strong>Assistance</strong></p>
-            <p>Centre d'aide</p>
-            <p>Nous contacter</p>
-        </div>
-
+                <div class="assistance">
+                    <p><strong>Assistance</strong></p>
+                    <p>Centre d'aide</p>
+                    <p>Nous contacter</p>
+                </div>
+            </div>
         </div>
 
     </footer>
 
 </body>
-
 </html>
