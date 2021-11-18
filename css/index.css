@@ -548,12 +548,6 @@ transform: scale(1.36);
 font-size: 13px;
 }
 
-.button_f-txt{
-  margin-left: 10px;
-  font-weight: bold;
-  font-style: normal;
-}
-
 .fa-heart{
 color: var(--main-color);
 background-color: RGB(222,235,255) ;
@@ -572,6 +566,13 @@ border-radius: 50px;
 transform:translatex(-5px) ;
 transform: scale(1.36);
 font-size: 13px;
+}
+
+.button_f-txt{
+  margin-left: 10px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .button_f:hover{
@@ -727,6 +728,7 @@ width: 60%;
 margin-left: 10px;
 margin-right: 40px;
 padding-top: 10px;
+margin-bottom: 5px;
 font-size: 16px;
 font-weight: bold;
 }
@@ -752,7 +754,7 @@ display: none;
 
 .star_2{
 margin-left: 10px;
-margin-top: 50px;
+margin-top: 45px;
 }
 
 .fa-star{
@@ -927,7 +929,7 @@ margin-bottom: 50px;
 
 @media screen and (max-width: 992px){
   main{
-    margin-right: 20px;
+    margin-right: 15px;
   }
  /**************galerie***************/
  .galerie{
@@ -948,30 +950,39 @@ margin-bottom: 50px;
   padding-right: 0px;
 }
 /**************galerie 2***************/
-.populaires{
-  margin-bottom: 0%;
-}
 .galerie_2{
+  flex-direction: column;
   width: 100%;
-  max-width: 95%;
-  margin-right: 100px;
+  max-width: 92%;
+  margin-right: 0px;
+  padding-bottom: 15px;
 }
 .card_2{
-  display: flex;
-  margin-top: -20px;
+  flex-direction: column;
+  margin-top: 0px ;
+  margin-left: 1.5%;
+  margin-right: 3.5%;
+  width: 100%;
 }
 .item_2{
-  flex-direction:unset;
-  width: 29%;
-  margin:5% 2%;
+  max-width: 93%;
+  width: 100%;
+  margin-right: 3.5%;
+  margin-bottom: 0px;
+  margin: 2%;
 }
 .nom_2{
-  font-size: 14px;
-}
-.prix{
-  margin-right: 5px;
-}
+  font-size: 16px;
 
+}
+.populaires{
+  padding-right: 0px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.star_2{
+  margin-top: 60px;
+}
 /**************galerie 3***************/
 .galerie_3{
   margin-left: 30px;
@@ -1006,14 +1017,14 @@ margin-bottom: 50px;
   flex-direction: column;
   width: 23%;
   min-width: 10%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 .cont4{
   flex-direction: column;
   width: 23%;
   min-width: 10%;
-  margin-left: 2.5%;
+  margin-left: 3%;
 }
 /**************footer***************/
 .apropos{
@@ -1089,7 +1100,7 @@ margin-bottom: 50px;
   margin: 2%;
 }
 .nom_2{
-  font-size: 14px;
+  font-size: 16px;
 
 }
 .populaires{
