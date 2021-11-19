@@ -904,6 +904,7 @@ object-fit: cover;
 margin: 15px 20px;
 font-size: 17px;
 font-weight: bold;
+height: 24px;
 }
 
 /**************footer***************/
@@ -1066,7 +1067,7 @@ li{
     margin: 0%;
   }
   .menu{
-    margin-right:0px ;
+    margin-right:5px ;
   }
 /**************filtre***************/
 .button_f{
@@ -1099,7 +1100,7 @@ li{
   font-size: 23px;
 }
 .item{
-  width: 96.5%;
+  width: 98.5%;
   height: 300px;
   margin: 10px 5px;
 }
