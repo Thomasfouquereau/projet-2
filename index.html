@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="css/index.css">
         <script src="https://kit.fontawesome.com/22bb2b7f4d.js" crossorigin="anonymous"></script>
         <title>Booki</title>
-        <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');</style>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head> 
 
     <body>
@@ -18,8 +19,8 @@
                 <img class="logo" src="assets/images/logo/Booki.png" alt=" logo">
 
                 <nav class="menu">
-                        <a class="menu_H" href="#">Hébergements</a>
-                        <a class="menu_A" href="#activite">Activités</a>
+                    <a class="menu_H" href="#Hebergements">Hébergements</a>
+                    <a class="menu_A" href="#activite">Activités</a>
                 </nav>
 
             </div>
@@ -35,9 +36,10 @@
 
             <div class="recherche">
                 <label id="recherche"><i class="fas fa-map-marker-alt"></i></label>
-                <input class="champ" type="text" placeholder="  Marseille, France">
+                <input class="champ" type="text" placeholder="Marseille, France">
                 <a class="button_R" href="#"><p class="Rechercher"></p><i class="fas fa-search"></i></a>
             </div>
+
             <div id="menu_1"></div>
             <div class="filtre">
                 <h3 class="fil">Filtres</h3>
@@ -66,7 +68,7 @@
         <section class="body">
 
         <div class="galerie">
-                   
+          <div id="Hebergements"></div>  
             <div class="galerie_1">
 
                 <h3 class="hebergements">Hébergements a Marseille</h3>
@@ -203,22 +205,28 @@
         <div class="foot">
             <div class="foot_txt">
                 <div class="apropos">
-                    <p><strong>A propos</strong></p>
-                    <p>Fonctionnement du site</p>
-                    <p>Conditions générales de vente</p>
-                    <p>Données et confidentialité</p>
+                    <ul>
+                        <li><strong>A propos</strong></li>
+                        <li>Fonctionnement du site</li>
+                        <li>Conditions générales de vente</li>
+                        <li>Données et confidentialité</li>
+                    </ul>
                 </div>
 
                 <div class="hebergement">
-                    <p><strong>Nos hébergements</strong></p>
-                    <p>Charte qualité</p>
-                    <p>Soumettre votre hotel</p>
+                    <ul>
+                        <li><strong>Nos hébergements</strong></li>
+                        <li>Charte qualité</li>
+                        <li>Soumettre votre hotel</li>
+                    </ul>
                 </div>
 
                 <div class="assistance">
-                    <p><strong>Assistance</strong></p>
-                    <p>Centre d'aide</p>
-                    <p>Nous contacter</p>
+                    <ul>
+                        <li><strong>Assistance</strong></li>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
                 </div>
             </div>
         </div>

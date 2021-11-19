@@ -401,7 +401,7 @@ max-width: 1440px;
 /**************logo***************/
 
 img.logo{
-padding-left: 50px;
+padding-left: 70px;
 padding-top: 30px;
 padding-bottom: 30px;
 width: 150px;
@@ -410,6 +410,7 @@ width: 150px;
 /**************menu***************/
 .menu{
 margin-left: auto;
+margin-right: 100px;
 font-weight: bold;
 transition: 0.3s;
 }
@@ -420,28 +421,37 @@ align-items: center;
 }
 
 .menu,a{
-padding: 42px 22px;
+padding-top: 40px;
+transform: translateY(-16px);
 }
-
+ 
 .menu_H{
-border-top: 2px solid var(--main-color);
-color: var(--main-color);
+padding-left: 20px;
+padding-right: 21px ;
+border-top: 3px solid rgb(170, 170, 170);
 }
 
-a,a :visited{
-color: black;
-text-decoration: none;
+.menu_A{
+padding-left: 24px;
+padding-right: 24px ;
+border-top: 3px solid rgb(170, 170, 170) 
 }
 
 .menu :hover {
 color: var(--main-color);
+border-top: 3px solid var(--main-color); 
 }
+
+a,a :visited{
+  color: black;
+  text-decoration: none;
+  }
 
 /**************section***************/
 
 .p_1{
 margin-bottom: 15px;
-margin-left: 35px;
+margin-left: 55px;
 }
 
 .p_1,h2{
@@ -453,7 +463,7 @@ margin-bottom: 5px;
 .recherche{
 margin-top: 20px;
 margin-bottom: 25px;
-margin-left: 35px;
+margin-left: 55px;
 margin-right: 50%;
 border-radius: 20px;
 display: flex;
@@ -472,6 +482,7 @@ background-color:rgb(242,242,242);
 height:50px;
 width:250px;
 border:none;
+padding-left: 10px;
 background-color:white;
 outline: none;
 font-weight: bold;
@@ -487,6 +498,7 @@ border-bottom-left-radius:0px ;
 border-top-left-radius: 0px;
 padding: 15px 22px;
 font-weight: bold;
+transform: translateY(0px);
 }
 
 
@@ -498,7 +510,7 @@ font-family: 'Raleway', sans-serif;
 
 .filtre{
 margin-bottom: 25px;
-margin-left: 35px;
+margin-left: 60px;
 margin-right: 35px;
 }
 
@@ -517,7 +529,7 @@ width: 100%;
 }
 
 .button_f {
-margin-left: 35px;
+margin-left: 30px;
 background-color:#DEEBFF ;
 background: transparent;
 border-radius: 50px;
@@ -582,7 +594,7 @@ border-color: RGB(222,235,255);
 /**************info***************/
 
 .info{
-margin-left: 35px;
+margin-left: 55px;
 font-size: 14px;
 }
 
@@ -925,6 +937,12 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 
+li{
+  list-style-type: none;
+  margin-left: -35px;
+  margin-top: 10px;
+}
+
 /**************media queries***************/
 
 @media screen and (max-width: 992px){
@@ -953,7 +971,7 @@ margin-bottom: 50px;
 .galerie_2{
   flex-direction: column;
   width: 100%;
-  max-width: 92%;
+  max-width: 95%;
   margin-right: 0px;
   padding-bottom: 15px;
 }
@@ -1047,6 +1065,9 @@ margin-bottom: 50px;
   main{
     margin: 0%;
   }
+  .menu{
+    margin-right:0px ;
+  }
 /**************filtre***************/
 .button_f{
    display: flexbox;
@@ -1062,20 +1083,35 @@ margin-bottom: 50px;
   }
 /**************galerie 1***************/
 .galerie_1{
-  width: 92%;
-  max-width: 95%;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 28px ;
+  margin-right: 0px ;
+  background-color: white ;
 }
 .card{
-  width: 100%;
-}
-.item{
-  flex-direction:unset;
-  width: 44%;
-  margin-right: 2%;
+  margin-right: 12px;
 }
 .hebergements{
-  padding-right: 0%;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  padding-right: 0px;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+.item{
+  width: 96.5%;
+  height: 300px;
+  margin: 10px 5px;
+}
+.item img{
+  height: 73%;
+}
+.sous-nom{
+  font-size: 14px;
+}
+.plus{
+  margin: 20px 10px;
+  font-weight: bold;
 }
 /**************galerie 2***************/
 .galerie_2{
@@ -1095,7 +1131,8 @@ margin-bottom: 50px;
 .item_2{
   max-width: 93%;
   width: 100%;
-  margin-right: 3.5%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 0px;
   margin: 2%;
 }
@@ -1203,7 +1240,9 @@ margin-bottom: 50px;
 img.logo {
   padding:0px 0px;
   margin-left: 39%;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 55px;
+  width: 100px;
 }
 /**************menu***************/
 .container_1{
@@ -1215,21 +1254,33 @@ img.logo {
   align-items: center;
   display: flex;
   align-items:unset;
+  margin-top: 10px;
 }
 .menu,a{
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 10px 0px;
 }
 .menu_H{
-  border-bottom: 4px solid #0065FC;
+  border-bottom: 4px solid rgb(170, 170, 170);
   border-top: 0px solid #0065FC;
   padding: 0px 10% 15px 10%;
   width: 50%;
 }
+.menu_H:hover{
+  border-bottom: 4px solid #0065FC;
+}
+.menu_A:hover{
+  border-bottom: 4px solid #0065FC;
+}
 .menu_A{
   padding: 0px 12% 15px 15%;
+  border-top: 0px solid #0065FC;
   border-bottom: 4px solid rgb(170, 170, 170);
   width: 50%;
 }
+.menu :hover {
+  color: var(--main-color);
+  border-top: 0px solid var(--main-color);  
+  }
 /**************section***************/
 .p_1{
   margin-left: 25px;
@@ -1237,10 +1288,10 @@ img.logo {
 }
 .p_1,h2{
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: 23px;
 }
 .p_1,p{
-  font-size: 20px
+  font-size: 18px;
 }
 /**************recherche***************/
 .recherche{
@@ -1258,10 +1309,13 @@ img.logo {
   display: none;
 }
 .button_R{
-  margin-left: 0px;
+  margin-left: -30px;
+  border-radius: 20px;
+  padding: 15px 17px;
 }
 .champ{
   width:350%;
+  padding-left: 10px;
 }
 i.fas.fa-search::before{
   content:"\f002"; 
@@ -1269,16 +1323,20 @@ i.fas.fa-search::before{
 }
 /**************filtre***************/
 .container_2{
+  width: 90%;
   align-items: flex-start;
-  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 0px;
 }
 .fil{
   margin-bottom: 25px;
+  transform: translateY(-40px);
   margin-left: 0px;
   margin-right: 35px;
 }
 .button_f {
   margin-left: 0px;
+  margin-right: 10px;
   margin-bottom: 15px;
 }
  /**************info***************/
@@ -1286,7 +1344,7 @@ i.fas.fa-search::before{
   font-size: 18px;
   display: flex;
   margin-bottom:40px ;
-  margin-left: 60px;
+  margin-left: 70px;
   margin-right: 20px;
 }
 .fa-info{
@@ -1300,6 +1358,9 @@ i.fas.fa-search::before{
   flex-direction: column-reverse;
 }
 /**************galerie 1***************/
+.card{
+  margin-right: 0px;
+}
 .galerie_1{
   flex-direction: column;
   width: 100%;
@@ -1307,11 +1368,11 @@ i.fas.fa-search::before{
   margin-right: 0px ;
   background-color: white ;
 }
-.Hebergements{
-  margin-left: 20px;
+.hebergements{
+  margin-left: 10px;
   padding-right: 0px;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 23px;
 }
 .item{
   width: 96.5%;
@@ -1322,7 +1383,7 @@ i.fas.fa-search::before{
   font-size: 14px;
 }
 .plus{
-  margin: 20px 20px;
+  margin: 20px 10px;
   font-weight: bold;
 }
 /**************galerie 2***************/
@@ -1330,7 +1391,8 @@ i.fas.fa-search::before{
   display:flex;
 }
 .card_2{
-  margin-right: 0px
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .menu-deroulant{
   display: none;
@@ -1376,7 +1438,7 @@ i.fas.fa-search::before{
 }
 /**************galerie 3***************/
 .activite{
-  margin-left: 10px;
+  margin-left: 0px;
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 20px;
@@ -1459,6 +1521,9 @@ i.fas.fa-search::before{
   flex-direction: column;
   width: 100%;
 }
+li{
+  list-style-type: none;
+}
 .foot_txt{
   flex-direction: column;
 }
@@ -1466,9 +1531,9 @@ i.fas.fa-search::before{
   margin:30px 30px 30px 30px;
 }
 .hebergement{
-  margin:30px 30px 30px 30px;
+  margin:0px 30px 30px 30px;
 }
 .assistance{
-  margin:30px 30px 30px 30px;
+  margin:0px 30px 30px 30px;
 }
 }
