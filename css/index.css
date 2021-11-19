@@ -950,6 +950,9 @@ li{
   main{
     margin-right: 15px;
   }
+  .menu{
+    margin-right: 20px;
+  }
  /**************galerie***************/
  .galerie{
   flex-direction: column-reverse;
